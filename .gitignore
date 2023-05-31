@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# Users
+*.user
+build
+.idea
+.vs
+out
+.vscode
