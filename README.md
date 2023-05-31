@@ -59,7 +59,7 @@ Make sure to adjust the code according to your specific requirements, including 
 The XCD compression algorithm used in this code snippet is assumed to be a custom implementation specific to your project. Please ensure that you have the appropriate rights and permissions to use and distribute the XCD compression code.
 
 
-# decompression
+# Decompression
 The code snippet you provided appears to be a call to the xcdDecompress function. Here's an explanation of the relevant components:
 
 ### `data`
