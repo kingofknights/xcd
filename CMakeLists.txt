@@ -5,7 +5,7 @@ project(xcd
 		LANGUAGES C
 	    )
 
-set(HEADER
+set(XCD_HEADER
 	 include/xcd/deflate.h
 	 include/xcd/inffast.h
 	 include/xcd/inffixed.h
@@ -18,7 +18,7 @@ set(HEADER
 	 include/xcd/zutil.h
  )
 
-set(SOURCE
+set(XCD_SOURCE
 	src/adler32.c
 	src/compress.c
 	src/deflate.c
@@ -32,5 +32,5 @@ set(SOURCE
 	src/zutil.c
 )
 
-add_library(${PROJECT_NAME} ${HEADER} ${SOURCE})
+add_library(${PROJECT_NAME} ${XCD_HEADER} ${XCD_SOURCE})
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include/xcd)
